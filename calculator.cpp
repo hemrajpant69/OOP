@@ -23,7 +23,7 @@ class calculator{
 	friend calculator operator /(calculator c1,calculator c2){
 			calculator temp;
 		
-			temp.result=c1.a*c2.a;
+			temp.result=c1.a/c2.a;
 			cout<<"Result="<<temp.result<<endl;
 			return temp;
 		}
